@@ -1,0 +1,23 @@
+{
+    "name": "bagisto/laravel-paypal",
+    "license": "MIT",
+    "authors": [{
+        "name": "Oluwatobi Odekunle",
+        "email": "ooluwatobialao@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Paystack\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Paystack\\Providers\\PaystackServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

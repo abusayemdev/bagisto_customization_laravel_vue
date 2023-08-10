@@ -1,0 +1,19 @@
+
+php artisan make:migration create_service_charges_table --path=packages/Webkul/Checkout/src/Database/Migrations
+
+
+php artisan make:model CourierZone --path=packages/Webkul/Core/src/Models
+ 
+composer dump-autoload
+
+php artisan make:model packages\\Webkul\\Core\\Models\\CourierZone
+
+
+php artisan optimize:clear
+
+
+
+ 
+
+
+
